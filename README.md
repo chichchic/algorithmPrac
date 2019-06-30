@@ -1,1 +1,3 @@
 # algorithmPrac
+
+Connect to VSCode
