@@ -80,6 +80,7 @@ int main()
     }
 
     /* 
+    //brute방식에서 사용
     for(int i = 0; i < input_size; i++)
     {
         for(int j = 0; j < input_size; j++)
@@ -107,7 +108,9 @@ int main()
 
     return 0;
 }
+
 /*
+// input example
 pretty
 u r l p m
 x p r e t
