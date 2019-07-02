@@ -14,3 +14,9 @@ Connect to VSCode
     배열을 넘기며 재귀 실행
     저장한 값을 배열에서 삭제
 }
+
+- N개의 원소 일렬로 줄세우기
+(C++ next_permutation()을 사용하면 편리함)
+참고자료 : https://twpower.github.io/90-combination-by-using-next_permutation
+
+
