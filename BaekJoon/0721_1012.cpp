@@ -1,5 +1,3 @@
-//미완
-
 #include <iostream>
 
 using namespace std;
@@ -10,7 +8,7 @@ int t, m, n, k;
 
 void girung(int x, int y)
 {
-    if(x < 0 || y < 0 || x >= n || y >= m)
+    if(x < 0 || y < 0 || x >= m || y >= n)
     {
         return;
     }
@@ -23,6 +21,10 @@ void girung(int x, int y)
         girung(x, y-1);
         girung(x+1, y);
         girung(x,y+1);
+    }
+    else
+    {
+        return;
     }
 }
 
@@ -38,7 +40,7 @@ int main()
         for(int i = 0; i < k; i++)
         {
             cin >> tempi >> tempj;
-            bechu[tempj][tempi] = 1;
+            bechu[tempi][tempj] = 1;
         }
 
 
