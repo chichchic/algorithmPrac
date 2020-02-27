@@ -31,7 +31,7 @@ Solve More than 1 algorithm problem per day with python
 | idx  | Title                                                       | Category                                      |                           HelpLink                           | Note |
 | :--: | ----------------------------------------------------------- | --------------------------------------------- | :----------------------------------------------------------: | :--: |
 |  1   | [2676. 라스칼 삼각형](https://www.acmicpc.net/problem/2676) | _ Engineer's Induction<br />_ Pattern Finding | [A](https://m.blog.naver.com/PostView.nhn?blogId=programmer18&logNo=220779631185&proxyReferer=https%3A%2F%2Fwww.google.com%2F) |  !   |
-|      |                                                             |                                               |                                                              |      |
+|  2   | [5525. IOIOI](https://www.acmicpc.net/problem/5525)         | _ KMP                                         |             [A](https://vvshinevv.tistory.com/2)             |  !   |
 |      |                                                             |                                               |                                                              |      |
 |      |                                                             |                                               |                                                              |      |
 |      |                                                             |                                               |                                                              |      |

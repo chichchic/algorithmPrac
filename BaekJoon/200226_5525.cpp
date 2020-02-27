@@ -1,47 +1,43 @@
 #include <iostream>
 #include <string>
-
+#include <vector>
 using namespace std;
+int n, m;
+string s, p;
+int ans = 0;
+vector<int> pi(2, 0);
 
-bool check[1000000] = {};
 int main()
 {
   // freopen("input.txt", "r", stdin);
-  int n, m, ans = 0;
   cin >> n >> m;
-  long long p = 0;
-  int plen = 2 * n + 1;
-  int cur = 1;
-  for (int i = 0; i < plen; i++)
-  {
-    if (i % 2 == 0)
-      p += 'I' * cur;
-    else
-      p += 'O' * cur;
-    cur *= 2;
-  }
-  long long hash = 0;
-  string s;
   cin >> s;
-  cur = 1;
-  for (int i = 0; i < plen; i++)
+  for (int i = 0; i < n; i++)
   {
-    hash += s[i] * cur;
-    cur *= 2;
+    p += "IO";
   }
-  if (hash == p)
-    ans++;
-  cur /= 2;
-  for (int i = 0; i < m - plen; i++)
+  p += 'I';
+  for (int i = 2; i <= 2 * n; i++)
+    pi.push_back(i - 1);
+  int s_len = s.size();
+  int p_len = p.size();
+  int j = 0;
+  for (int i = 0; i < s_len; i++)
   {
-    hash -= s[i];
-    hash /= 2;
-    hash += s[i + plen] * cur;
-    // cout << i << ' ' << s[i] << ' ' << s[i + plen] << '\n';
-    if (hash == p)
+    while (s[i] != p[j])
     {
-      // cout << i << ' ' << hash << ' ' << p << '\n';
-      ans++;
+      if (j == 0)
+        break;
+      j = pi[j - 1];
+    }
+    if (s[i] == p[j])
+    {
+      j++;
+      if (j == p_len)
+      {
+        ans++;
+        j = pi[j - 1];
+      }
     }
   }
   cout << ans;
