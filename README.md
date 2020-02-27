@@ -1,7 +1,5 @@
 # algorithmPrac
 
-
-
 Solve More than 1 algorithm problem per day with python
 
 <br>
@@ -17,25 +15,28 @@ Solve More than 1 algorithm problem per day with python
 
 ### Leet Code
 
-| idx  | Title                                                        | Category                           |   From   |                             Ans                              | Note |
-| :--: | ------------------------------------------------------------ | ---------------------------------- | :------: | :----------------------------------------------------------: | :--: |
-|  1   | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | \* String                          | LeetCode | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200223_344.cpp) |      |
-|  2   | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/reverse-string/) | _ Tree<br>_ Depth-first Search     | LeetCode | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200222_104.cpp) |      |
-|  3   | [136. Single Number](https://leetcode.com/problems/single-number/) | _ Hash Table<br>_ Bit Manipulation | LeetCode | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200224_136.cpp) |      |
-|  4   | [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)   |                                    | LeetCode | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200225_412.cpp) |      |
-|  5   | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | _ Hash Table<br>_ Stack<br>\* Tree | LeetCode | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200226_94.md) |  +   |
+| idx  | Title                                                        | Category                           |                             Ans                              | Note |
+| :--: | ------------------------------------------------------------ | ---------------------------------- | :----------------------------------------------------------: | :--: |
+|  1   | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | \* String                          | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200223_344.cpp) |      |
+|  2   | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/reverse-string/) | _ Tree<br>_ Depth-first Search     | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200222_104.cpp) |      |
+|  3   | [136. Single Number](https://leetcode.com/problems/single-number/) | _ Hash Table<br>_ Bit Manipulation | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200224_136.cpp) |      |
+|  4   | [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)   |                                    | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200225_412.cpp) |      |
+|  5   | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | _ Hash Table<br>_ Stack<br>\* Tree | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200226_94.md) |  +   |
+|  6   | [46. Permutations](https://leetcode.com/problems/permutations/) | _Permutation<br>                   | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200227_46.md) |  +   |
 
 <br>
 
-### BaekJoon
+### BaekJoon(record !+)
 
-| idx  | Title | Category | From | Ans  | Note |
-| :--: | ----- | -------- | :--: | :--: | :--: |
-|  1   |       |          |      |      |      |
-|      |       |          |      |      |      |
-|      |       |          |      |      |      |
-|      |       |          |      |      |      |
-|      |       |          |      |      |      |
+| idx  | Title                                                       | Category                                      |                           HelpLink                           | Note |
+| :--: | ----------------------------------------------------------- | --------------------------------------------- | :----------------------------------------------------------: | :--: |
+|  1   | [2676. 라스칼 삼각형](https://www.acmicpc.net/problem/2676) | _ Engineer's Induction<br />_ Pattern Finding | [A](https://m.blog.naver.com/PostView.nhn?blogId=programmer18&logNo=220779631185&proxyReferer=https%3A%2F%2Fwww.google.com%2F) |  !   |
+|      |                                                             |                                               |                                                              |      |
+|      |                                                             |                                               |                                                              |      |
+|      |                                                             |                                               |                                                              |      |
+|      |                                                             |                                               |                                                              |      |
+
+<br>
 
 <br>
 
