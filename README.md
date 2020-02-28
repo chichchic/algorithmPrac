@@ -13,7 +13,7 @@ Solve More than 1 algorithm problem per day with python
 
 <br>
 
-### Leet Code
+### [Leet Code](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/)
 
 | idx  | Title                                                        | Category                           |                             Ans                              | Note |
 | :--: | ------------------------------------------------------------ | ---------------------------------- | :----------------------------------------------------------: | :--: |
@@ -22,7 +22,8 @@ Solve More than 1 algorithm problem per day with python
 |  3   | [136. Single Number](https://leetcode.com/problems/single-number/) | _ Hash Table<br>_ Bit Manipulation | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200224_136.cpp) |      |
 |  4   | [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)   |                                    | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200225_412.cpp) |      |
 |  5   | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | _ Hash Table<br>_ Stack<br>\* Tree | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200226_94.md) |  +   |
-|  6   | [46. Permutations](https://leetcode.com/problems/permutations/) | _Permutation<br>                   | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200227_46.md) |  +   |
+|  6   | [46. Permutations](https://leetcode.com/problems/permutations/) | _ Permutation<br>_ BackTracking    | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200227_46.md) |  +   |
+|  7   | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | _ BackTracking                     | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200227_22.md) |  +   |
 
 <br>
 
