@@ -24,7 +24,8 @@ Solve More than 1 algorithm problem per day with python
 |  5   | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | _ Hash Table<br>_ Stack<br>\* Tree | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200226_94.md) |  +   |
 |  6   | [46. Permutations](https://leetcode.com/problems/permutations/) | _ Permutation<br>_ BackTracking    | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200227_46.md) |  +   |
 |  7   | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | _ BackTracking                     | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200227_22.md) |  +   |
-|  9   | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | _ Linked List                      | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200302_206.md) |  +   |
+|  8   | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | _ Linked List                      | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200302_206.md) |  +   |
+|  9   | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | _ Heap<br>_ Sort                   | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200303_347.md) |  +   |
 
 <br>
 
