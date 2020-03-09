@@ -29,6 +29,7 @@ Solve More than 1 algorithm problem per day with python
 |  10  | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |                                             | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200304_238.md) |  !   |
 |  11  | [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) |                                             | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200305_237.md) |  +   |
 |  12  | [78. Subsets](https://leetcode.com/problems/subsets/)        | _ Bit mask<br>_ BackTracking<br>_ Recursion | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200306_78.md) |  +   |
+|  13  | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) |                                             | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200309_283.md) |  +   |
 
 <br>
 
