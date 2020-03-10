@@ -30,6 +30,7 @@ Solve More than 1 algorithm problem per day with python
 |  11  | [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) |                                             | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200305_237.md) |  +   |
 |  12  | [78. Subsets](https://leetcode.com/problems/subsets/)        | _ Bit mask<br>_ BackTracking<br>_ Recursion | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200306_78.md) |  +   |
 |  13  | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) |                                             | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200309_283.md) |  +   |
+|  14  | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | _ Binary Search Tree                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200309_230.md) |  +   |
 
 <br>
 
