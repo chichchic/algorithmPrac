@@ -36,13 +36,14 @@ Solve More than 1 algorithm problem per day with python
 
 ### BaekJoon(record not +)
 
-| idx  | Title                                                       | Category                                   |                           HelpLink                           | Note |
-| :--: | ----------------------------------------------------------- | ------------------------------------------ | :----------------------------------------------------------: | :--: |
-|  1   | [2676. 라스칼 삼각형](https://www.acmicpc.net/problem/2676) | _ Engineer's Induction<br />_ Find Pattern | [A](https://m.blog.naver.com/PostView.nhn?blogId=programmer18&logNo=220779631185&proxyReferer=https%3A%2F%2Fwww.google.com%2F) |  !   |
-|  2   | [5525. IOIOI](https://www.acmicpc.net/problem/5525)         | _ KMP                                      |             [A](https://vvshinevv.tistory.com/2)             |  !   |
-|  3   | [11947. 이런반전이](https://www.acmicpc.net/problem/11947)  | _ Find Pattern                             |         [A](https://www.acmicpc.net/board/view/6476)         |  !   |
-|  4   | [1068. 트리](https://www.acmicpc.net/problem/1068)          | _ Tree                                     |                                                              |  -   |
-|      |                                                             |                                            |                                                              |      |
+| idx  | Title                                                        | Category                                 |                           HelpLink                           | Note |
+| :--: | ------------------------------------------------------------ | ---------------------------------------- | :----------------------------------------------------------: | :--: |
+|  1   | [2676. 라스칼 삼각형](https://www.acmicpc.net/problem/2676)  | _ Engineer's Induction<br>_ Find Pattern | [A](https://m.blog.naver.com/PostView.nhn?blogId=programmer18&logNo=220779631185&proxyReferer=https%3A%2F%2Fwww.google.com%2F) |  !   |
+|  2   | [5525. IOIOI](https://www.acmicpc.net/problem/5525)          | _ KMP                                    |             [A](https://vvshinevv.tistory.com/2)             |  !   |
+|  3   | [11947. 이런반전이](https://www.acmicpc.net/problem/11947)   | _ Find Pattern                           |         [A](https://www.acmicpc.net/board/view/6476)         |  !   |
+|  4   | [1068. 트리](https://www.acmicpc.net/problem/1068)           | _ Tree                                   |                                                              |  -   |
+|  5   | [1700. 멀티탭 스케줄링](https://www.acmicpc.net/problem/1700) | _ Greedy                                 |        [A](https://www.acmicpc.net/board/view/45687)         |  !   |
+|  6   | [1377.버블 소트](https://www.acmicpc.net/problem/1377)       | _ Sort<br>_ Map                          |                                                              |  -   |
 
 <br>
 

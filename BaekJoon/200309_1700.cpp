@@ -1,59 +1,65 @@
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
 int main()
 {
-  freopen("input.txt", "r", stdin);
-  int n, k, cur, num = 0, ans = 0;
+  // freopen("input.txt", "r", stdin);
+  int n, k, cur, plugedNum = 0, ans = 0;
   cin >> n >> k;
-  vector<int> index(k + 1, 9999999);
-  vector<int> input(k + 1);
-  vector<bool> plug(k + 1, false);
+  vector<bool> pluged(k + 1, false);
+  vector<int> input(k);
+  vector<int> lastIndex(k + 1);
   for (int i = 0; i < k; i++)
   {
     cin >> input[i];
-    index[input[i]] = i;
+    lastIndex[input[i]] = i;
   }
   for (int i = 0; i < k; i++)
   {
     cur = input[i];
-    if (!plug[cur])
+    if (!pluged[cur])
     {
-      if (num < n)
+      if (n > plugedNum)
       {
-        num++;
-        plug[cur] = true;
+        plugedNum++;
+        pluged[cur] = true;
       }
       else
       {
+        bool change = false;
         ans++;
-        bool skip = false;
-        for (int j = 1; j <= k; j++)
+
+        for (int num = 1; num <= k; num++)
         {
-          if (plug[j])
+          if (pluged[num] && lastIndex[num] < i)
           {
-            if (index[j] < i)
-            {
-              skip = true;
-              plug[j] = false;
-              plug[cur] = true;
-              // cout << i + 1 << " : " << j << "!\n";
-              break;
-            }
+            change = true;
+            pluged[num] = false;
+            pluged[cur] = true;
+            break;
           }
         }
-        if (!skip)
+        if (!change)
         {
-          int candi;
-          for (int j = i + 1; j < k; j++)
+          int lastUse;
+          vector<int> backTrue;
+          for (int idx = i + 1; idx < k; idx++)
           {
-            if (plug[input[j]])
-              candi = input[j];
+            int check = input[idx];
+            if (pluged[check])
+            {
+              backTrue.push_back(check);
+              pluged[check] = false;
+            }
           }
-          // cout << i + 1 << " : " << candi << '\n';
-          plug[candi] = false;
-          plug[cur] = true;
+          backTrue.pop_back();
+          for (int i = 0; i < backTrue.size(); i++)
+          {
+            pluged[backTrue[i]] = true;
+          }
+          pluged[cur] = true;
         }
       }
     }
