@@ -47,6 +47,7 @@ Solve More than 1 algorithm problem per day with python
 |  5   | [1700. 멀티탭 스케줄링](https://www.acmicpc.net/problem/1700) | _ Greedy                                 |        [A](https://www.acmicpc.net/board/view/45687)         |  !   |
 |  6   | [1377. 버블 소트](https://www.acmicpc.net/problem/1377)      | _ Sort<br>_ Map                          |                                                              |  -   |
 |  7   | [1620. 가르침](https://www.acmicpc.net/problem/1062)         |                                          |                                                              |  -   |
+|  8   | [16432. 양 구출 작전](https://www.acmicpc.net/problem/16437) | _ Postorder Traversal                    |                                                              |  -   |
 
 <br>
 
