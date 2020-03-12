@@ -33,6 +33,7 @@ Solve More than 1 algorithm problem per day with python
 |  14  | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | _ Binary Search Tree                                       | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200309_230.md) |  +   |
 |  15  | [169. Majority Element](https://leetcode.com/problems/majority-element/) | _ Sort<br />_ Hash Map<br />_ Boyer-Moore Voting Algorithm | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200311_169.md) |  +   |
 |  16  | [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200312_108.md) |  +   |
+|  17  | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200313_242.md) |  +   |
 
 <br>
 
