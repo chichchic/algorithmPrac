@@ -49,6 +49,7 @@ Solve More than 1 algorithm problem per day with python
 |  6   | [1377. 버블 소트](https://www.acmicpc.net/problem/1377)      | _ Sort<br>_ Map                          |                                                              |  -   |
 |  7   | [1620. 가르침](https://www.acmicpc.net/problem/1062)         |                                          |                                                              |  -   |
 |  8   | [16432. 양 구출 작전](https://www.acmicpc.net/problem/16437) | _ Postorder Traversal                    |                                                              |  -   |
+|  9   | [1983. 숫자 박스](https://www.acmicpc.net/problem/1983)      | _ Dynamic Programming                    |              [A](https://blog.encrypted.gg/74)               |  !   |
 
 <br>
 
