@@ -41,15 +41,16 @@ Solve More than 1 algorithm problem per day with python
 
 | idx  | Title                                                        | Category                                 |                           HelpLink                           | Note |
 | :--: | ------------------------------------------------------------ | ---------------------------------------- | :----------------------------------------------------------: | :--: |
-|  1   | [2676. 라스칼 삼각형](https://www.acmicpc.net/problem/2676)  | _ Engineer's Induction<br>_ Find Pattern | [A](https://m.blog.naver.com/PostView.nhn?blogId=programmer18&logNo=220779631185&proxyReferer=https%3A%2F%2Fwww.google.com%2F) |  !   |
-|  2   | [5525. IOIOI](https://www.acmicpc.net/problem/5525)          | _ KMP                                    |             [A](https://vvshinevv.tistory.com/2)             |  !   |
-|  3   | [11947. 이런반전이](https://www.acmicpc.net/problem/11947)   | _ Find Pattern                           |         [A](https://www.acmicpc.net/board/view/6476)         |  !   |
+|  1   | [2676. 라스칼 삼각형](https://www.acmicpc.net/problem/2676)  | _ Engineer's Induction<br>_ Find Pattern | [H](https://m.blog.naver.com/PostView.nhn?blogId=programmer18&logNo=220779631185&proxyReferer=https%3A%2F%2Fwww.google.com%2F) |  !   |
+|  2   | [5525. IOIOI](https://www.acmicpc.net/problem/5525)          | _ KMP                                    |             [H](https://vvshinevv.tistory.com/2)             |  !   |
+|  3   | [11947. 이런반전이](https://www.acmicpc.net/problem/11947)   | _ Find Pattern                           |         [H](https://www.acmicpc.net/board/view/6476)         |  !   |
 |  4   | [1068. 트리](https://www.acmicpc.net/problem/1068)           | _ Tree                                   |                                                              |  -   |
-|  5   | [1700. 멀티탭 스케줄링](https://www.acmicpc.net/problem/1700) | _ Greedy                                 |        [A](https://www.acmicpc.net/board/view/45687)         |  !   |
+|  5   | [1700. 멀티탭 스케줄링](https://www.acmicpc.net/problem/1700) | _ Greedy                                 |        [H](https://www.acmicpc.net/board/view/45687)         |  !   |
 |  6   | [1377. 버블 소트](https://www.acmicpc.net/problem/1377)      | _ Sort<br>_ Map                          |                                                              |  -   |
 |  7   | [1620. 가르침](https://www.acmicpc.net/problem/1062)         |                                          |                                                              |  -   |
 |  8   | [16432. 양 구출 작전](https://www.acmicpc.net/problem/16437) | _ Postorder Traversal                    |                                                              |  -   |
-|  9   | [1983. 숫자 박스](https://www.acmicpc.net/problem/1983)      | _ Dynamic Programming                    |              [A](https://blog.encrypted.gg/74)               |  !   |
+|  9   | [1983. 숫자 박스](https://www.acmicpc.net/problem/1983)      | _ Dynamic Programming                    |              [H](https://blog.encrypted.gg/74)               |  !   |
+|  10  | [7662.이중 우선순위 큐](https://www.acmicpc.net/problem/7662) | _ Priority Queue<br />_ Map              |        [H](https://www.acmicpc.net/board/view/47327)         |  !   |
 
 <br>
 
