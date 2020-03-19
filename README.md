@@ -37,6 +37,7 @@ Solve More than 1 algorithm problem per day with python
 |  18  | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200316_ 217.md) |  +   |
 |  19  | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200317_13.md) |  +   |
 |  20  | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200318_122.md) |  +   |
+|  21  | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200319_48.md) |  +   |
 
 <br>
 
