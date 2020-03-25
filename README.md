@@ -41,6 +41,7 @@ Solve More than 1 algorithm problem per day with python
 |  22  | [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200320_171.md) |  +   |
 |  23  | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200323_49.md) |  +   |
 |  24  | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200324_287.md) |  +   |
+|  25  | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200325_215.md) |  +   |
 
 <br>
 
