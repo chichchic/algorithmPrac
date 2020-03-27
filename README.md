@@ -42,7 +42,8 @@ Solve More than 1 algorithm problem per day with python
 |  23  | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200323_49.md) |  +   |
 |  24  | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200324_287.md) |  +   |
 |  25  | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |                                                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200325_215.md) |  +   |
-|  26  | [102. Binary Tree Level Order Traversal]                     | _ BFS                                                      | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200326_102.md) |  +   |
+|  26  | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | _ Breadth First Search                                     | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200326_102.md) |  +   |
+|  27  | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | _ Binary Search <br />_ Heap                               | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200327_378.md) |  +   |
 
 <br>
 
