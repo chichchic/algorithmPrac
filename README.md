@@ -63,6 +63,7 @@ Solve More than 1 algorithm problem per day with python
 |  9   | [1983. 숫자 박스](https://www.acmicpc.net/problem/1983)      | _ Dynamic Programming                                 |              [H](https://blog.encrypted.gg/74)               |  !   |
 |  10  | [7662.이중 우선순위 큐](https://www.acmicpc.net/problem/7662) | _ Priority Queue<br />_ Map                           |        [H](https://www.acmicpc.net/board/view/47327)         |  !   |
 |  11  | [6549.히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549) | _ Divide and conquer<br />_ Segment Tree<br />_ Stack |         [H]((https://www.acmicpc.net/blog/view/12))          |  !   |
+|  12  | [1007.벡터 매칭](https://www.acmicpc.net/problem/1007)       |                                                       |         [H](https://www.acmicpc.net/board/view/2406)         |  !   |
 
 <br>
 
