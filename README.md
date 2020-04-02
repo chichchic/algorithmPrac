@@ -45,6 +45,7 @@ Solve More than 1 algorithm problem per day with python
 |  26  | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | _ Breadth First Search                                       | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200326_102.md) |  +   |
 |  27  | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | _ Binary Search <br />_ Heap                                 | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200327_378.md) |  +   |
 |  28  | [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | _ Linked List<br />- [H](https://leetcode.com/problems/odd-even-linked-list/solution/) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200330_328.md) |  !   |
+|  29  | [454. 4Sum II](https://leetcode.com/problems/4sum-ii/)       | _ Hash Map<br />_ [H](https://leetcode.com/problems/4sum-ii/discuss/557856/C%2B%2B-O(n*n)-with-clear-explanation) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200402_454.md) |  !   |
 
 <br>
 
