@@ -48,6 +48,7 @@ Solve More than 1 algorithm problem per day with python
 |  29  | [454. 4Sum II](https://leetcode.com/problems/4sum-ii/)       | _ Hash Map<br />_ [H](https://leetcode.com/problems/4sum-ii/discuss/557856/C%2B%2B-O(n*n)-with-clear-explanation) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200402_454.md) |  !   |
 |  30  | [289. Game of Life](https://leetcode.com/problems/game-of-life/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200403_289.md) |  +   |
 |  31  | [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | _ Random                                                     | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200406_384.md) |  +   |
+|  32  | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200407_21.md) |  +   |
 
 <br>
 
