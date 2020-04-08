@@ -49,6 +49,7 @@ Solve More than 1 algorithm problem per day with python
 |  30  | [289. Game of Life](https://leetcode.com/problems/game-of-life/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200403_289.md) |  +   |
 |  31  | [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | _ Random                                                     | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200406_384.md) |  +   |
 |  32  | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200407_21.md) |  +   |
+|  33  | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200408_62.md) |  +   |
 
 <br>
 
