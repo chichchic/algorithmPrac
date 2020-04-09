@@ -19,9 +19,9 @@ Solve More than 1 algorithm problem per day with python
 | :--: | ------------------------------------------------------------ | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: |
 |  1   | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | \* String                                                    | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200223_344.cpp) |      |
 |  2   | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/reverse-string/) | _ Tree<br>_ Depth-first Search                               | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200222_104.cpp) |      |
-|  3   | [136. Single Number](https://leetcode.com/problems/single-number/) | _ Hash Table<br>_ Bit Manipulation                           | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200224_136.cpp) |      |
+|  3   | [136. Single Number](https://leetcode.com/problems/single-number/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200224_136.cpp) |      |
 |  4   | [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)   |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200225_412.cpp) |      |
-|  5   | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | _ Hash Table<br>_ Stack<br>\* Tree                           | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200226_94.md) |  +   |
+|  5   | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | _ Stack<br>\* Tree                                           | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200226_94.md) |  +   |
 |  6   | [46. Permutations](https://leetcode.com/problems/permutations/) | _ Permutation<br>_ BackTracking                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200227_46.md) |  +   |
 |  7   | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | _ BackTracking                                               | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200227_22.md) |  +   |
 |  8   | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | _ Linked List                                                | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200302_206.md) |  +   |
@@ -50,6 +50,7 @@ Solve More than 1 algorithm problem per day with python
 |  31  | [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | _ Random                                                     | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200406_384.md) |  +   |
 |  32  | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200407_21.md) |  +   |
 |  33  | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200408_62.md) |  +   |
+|  34  | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | _ Hash Map                                                   | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200409_387.md) |  +   |
 
 <br>
 
