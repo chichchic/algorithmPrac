@@ -1,58 +1,103 @@
+// #include <iostream>
+// #include <vector>
+
+// using namespace std;
+
+// int n, m;
+// int ans;
+// vector<int> wood;
+
+// void search(int start, int end)
+// {
+//   int mid = (start + end) / 2;
+//   if (start >= end)
+//   {
+//     ans = start;
+//     return;
+//   }
+//   long long temp = 0;
+//   for (int i = 0; i < n; i++)
+//   {
+//     if (wood[i] <= mid)
+//       continue;
+//     temp += wood[i] - mid;
+//   }
+
+//   if (temp == m)
+//   {
+//     cout << mid;
+//     return;
+//   }
+//   else if (temp < m)
+//   {
+//     search(start, mid - 1);
+//   }
+//   else
+//   {
+//     search(mid + 1, end);
+//   }
+// }
+
+// int main()
+// {
+//   cin >> n >> m;
+//   wood.resize(n);
+//   int min = 1000000001, max = 0;
+//   for (int i = 0; i < n; i++)
+//   {
+//     scanf(" %d", &wood[i]);
+//     if (min > wood[i])
+//       min = wood[i];
+//     if (max < wood[i])
+//       max = wood[i];
+//   }
+
+//   search(0, max + 1);
+
+//   return 0;
+// }
+
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-int n, m;
-int ans;
-vector<int> wood;
+vector<long long> tree;
 
-void search(int start, int end)
+bool check(long long h, long long m)
 {
-  int mid = (start + end) / 2;
-  if (start >= end)
+  long long sum = 0;
+  for (int i = 0; i < tree.size(); i++)
   {
-    ans = start;
-    return;
+    long long take = tree[i] - h;
+    if (take > 0)
+      sum += take;
   }
-  long long temp = 0;
-  for (int i = 0; i < n; i++)
-  {
-    if (wood[i] <= mid)
-      continue;
-    temp += wood[i] - mid;
-  }
-
-  if (temp == m)
-  {
-    cout << mid;
-    return;
-  }
-  else if (temp < m)
-  {
-    search(start, mid - 1);
-  }
+  if (sum >= m)
+    return true;
   else
-  {
-    search(mid + 1, end);
-  }
+    return false;
 }
 
 int main()
 {
+  // freopen("input.txt", "r", stdin);
+  long long n, m;
   cin >> n >> m;
-  wood.resize(n);
-  int min = 1000000001, max = 0;
+  tree.resize(n);
   for (int i = 0; i < n; i++)
   {
-    scanf(" %d", &wood[i]);
-    if (min > wood[i])
-      min = wood[i];
-    if (max < wood[i])
-      max = wood[i];
+    cin >> tree[i];
   }
-
-  search(0, max + 1);
-
+  long long s = 0, e = 1000000001;
+  while (e - s > 1)
+  {
+    int mid = (e + s) / 2;
+    if (check(mid, m))
+      s = mid;
+    else
+      e = mid;
+  }
+  cout << s;
   return 0;
 }
