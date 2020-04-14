@@ -53,6 +53,7 @@ Solve More than 1 algorithm problem per day with python
 |  34  | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | _ Hash Map                                                   | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200409_387.md) |  +   |
 |  35  | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | _ Recursive                                                  | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200410_341.md) |  +   |
 |  36  | [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | _ Dynamic Programming                                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200413_118.md) |  +   |
+|  37  | [268. Missing Number](https://leetcode.com/problems/missing-number/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200414_268.md) |  +   |
 
 <br>
 
