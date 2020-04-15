@@ -54,6 +54,7 @@ Solve More than 1 algorithm problem per day with python
 |  35  | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | _ Recursive                                                  | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200410_341.md) |  +   |
 |  36  | [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | _ Dynamic Programming                                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200413_118.md) |  +   |
 |  37  | [268. Missing Number](https://leetcode.com/problems/missing-number/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200414_268.md) |  +   |
+|  38  | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200415_371.md) |  +   |
 
 <br>
 
@@ -73,6 +74,7 @@ Solve More than 1 algorithm problem per day with python
 |  10  | [7662.이중 우선순위 큐](https://www.acmicpc.net/problem/7662) | _ Priority Queue<br />_ Map                           |        [H](https://www.acmicpc.net/board/view/47327)         |  !   |
 |  11  | [6549.히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549) | _ Divide and conquer<br />_ Segment Tree<br />_ Stack |         [H]((https://www.acmicpc.net/blog/view/12))          |  !   |
 |  12  | [1007.벡터 매칭](https://www.acmicpc.net/problem/1007)       |                                                       |         [H](https://www.acmicpc.net/board/view/2406)         |  !   |
+|  13  | [1300.K번째 수](https://www.acmicpc.net/problem/1300)        | _ BinarySearch                                        |        [H](https://www.acmicpc.net/board/view/20936)         |  !   |
 
 <br>
 
