@@ -55,6 +55,7 @@ Solve More than 1 algorithm problem per day with python
 |  36  | [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | _ Dynamic Programming                                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200413_118.md) |  +   |
 |  37  | [268. Missing Number](https://leetcode.com/problems/missing-number/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200414_268.md) |  +   |
 |  38  | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200415_371.md) |  +   |
+|  39  | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200416_350.md) |  +   |
 
 <br>
 
