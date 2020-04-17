@@ -56,6 +56,7 @@ Solve More than 1 algorithm problem per day with python
 |  37  | [268. Missing Number](https://leetcode.com/problems/missing-number/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200414_268.md) |  +   |
 |  38  | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200415_371.md) |  +   |
 |  39  | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200416_350.md) |  +   |
+|  40  | [202. Happy Number](https://leetcode.com/problems/happy-number/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200417_202.md) |  +   |
 
 <br>
 
@@ -76,6 +77,7 @@ Solve More than 1 algorithm problem per day with python
 |  11  | [6549.히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549) | _ Divide and conquer<br />_ Segment Tree<br />_ Stack |         [H]((https://www.acmicpc.net/blog/view/12))          |  !   |
 |  12  | [1007.벡터 매칭](https://www.acmicpc.net/problem/1007)       |                                                       |         [H](https://www.acmicpc.net/board/view/2406)         |  !   |
 |  13  | [1300.K번째 수](https://www.acmicpc.net/problem/1300)        | _ BinarySearch                                        |        [H](https://www.acmicpc.net/board/view/20936)         |  !   |
+|  14  | [16118.달빛 여우](https://www.acmicpc.net/problem/16118)     | _ Dijkstra                                            |                                                              |  --  |
 
 <br>
 
