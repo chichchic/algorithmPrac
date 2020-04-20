@@ -57,6 +57,7 @@ Solve More than 1 algorithm problem per day with python
 |  38  | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200415_371.md) |  +   |
 |  39  | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200416_350.md) |  +   |
 |  40  | [202. Happy Number](https://leetcode.com/problems/happy-number/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200417_202.md) |  +   |
+|  41  | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200420_121.md) |  +   |
 
 <br>
 
