@@ -61,6 +61,7 @@ Solve More than 1 algorithm problem per day with python
 |  42  | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200421_11.md) |  +   |
 |  43  | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200422_191.md) |  +   |
 |  44  | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | _ Stack                                                      | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200424_42.md) |  -   |
+|  45  | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200425_36.md) |  +   |
 
 <br>
 
