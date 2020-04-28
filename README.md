@@ -63,6 +63,7 @@ Solve More than 1 algorithm problem per day with python
 |  44  | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | _ Stack                                                      | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200424_42.md) |  -   |
 |  45  | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200425_36.md) |  +   |
 |  46  | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | _ Tree traversal<br />_ [H](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/discuss/591997/C%2B%2B-recursion-solution-beats-98-on-runtime) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200427_105.md) |  !   |
+|  47  | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | _ Dynamic programming                                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200428_70.md) |  +   |
 
 <br>
 
