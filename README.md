@@ -65,6 +65,7 @@ Solve More than 1 algorithm problem per day with python
 |  46  | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | _ Tree traversal<br />_ [H](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/discuss/591997/C%2B%2B-recursion-solution-beats-98-on-runtime) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200427_105.md) |  !   |
 |  47  | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | _ Dynamic programming                                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200428_70.md) |  +   |
 |  48  | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200429_101.md) |  -   |
+|  49  | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200430_103.md) |  +   |
 
 <br>
 
