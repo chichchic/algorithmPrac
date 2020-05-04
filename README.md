@@ -66,6 +66,8 @@ Solve More than 1 algorithm problem per day with python
 |  47  | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | _ Dynamic programming                                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200428_70.md) |  +   |
 |  48  | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200429_101.md) |  -   |
 |  49  | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200430_103.md) |  +   |
+|  50  | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | _ [H](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/606803/c%2B%2B-90-fast-solution) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200503_297.md) |  !   |
+|  51  | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | _ Hash Map                                                   | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200504_380.md) |  +   |
 
 <br>
 
