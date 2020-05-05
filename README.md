@@ -69,6 +69,7 @@ Solve More than 1 algorithm problem per day with python
 |  50  | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | _ [H](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/606803/c%2B%2B-90-fast-solution) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200503_297.md) |  !   |
 |  51  | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | _ Hash Map                                                   | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200504_380.md) |  +   |
 |  52  | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | _ Devide And Conquer<br />_ Greed                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200505_53.md) |  +   |
+|  53  | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | _ BFS                                                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200506_200.md) |  +   |
 
 <br>
 
