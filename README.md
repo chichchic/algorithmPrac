@@ -70,6 +70,7 @@ Solve More than 1 algorithm problem per day with python
 |  51  | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | _ Hash Map                                                   | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200504_380.md) |  +   |
 |  52  | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | _ Devide And Conquer<br />_ Greed                            | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200505_53.md) |  +   |
 |  53  | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | _ BFS                                                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200506_200.md) |  +   |
+|  54  | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | _ DFS<br />_ [H](https://leetcode.com/problems/palindrome-partitioning/discuss/598504/C%2B%2B-Solution-...-Easy-to-understand-and-with-Comments) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200508_131.md) |  !   |
 
 <br>
 
