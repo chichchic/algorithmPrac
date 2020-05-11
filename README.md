@@ -72,6 +72,7 @@ Solve More than 1 algorithm problem per day with python
 |  53  | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | _ BFS                                                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200506_200.md) |  +   |
 |  54  | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | _ DFS<br />_ [H](https://leetcode.com/problems/palindrome-partitioning/discuss/598504/C%2B%2B-Solution-...-Easy-to-understand-and-with-Comments) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200508_131.md) |  !   |
 |  55  | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | _ BackTracking                                               | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200509_17.md) |  +   |
+|  56  | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | _ DP                                                         | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200511_279.md) |  +   |
 
 <br>
 
