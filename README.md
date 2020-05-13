@@ -74,6 +74,7 @@ Solve More than 1 algorithm problem per day with python
 |  55  | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | _ BackTracking                                               | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200509_17.md) |  +   |
 |  56  | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | _ DP                                                         | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200511_279.md) |  +   |
 |  57  | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200512_75.md) |  +   |
+|  58  | [1. Two Sum](https://leetcode.com/problems/two-sum/)         |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200513_1.md) |  +   |
 
 <br>
 
