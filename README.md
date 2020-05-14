@@ -75,6 +75,7 @@ Solve More than 1 algorithm problem per day with python
 |  56  | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | _ DP                                                         | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200511_279.md) |  +   |
 |  57  | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200512_75.md) |  +   |
 |  58  | [1. Two Sum](https://leetcode.com/problems/two-sum/)         |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200513_1.md) |  +   |
+|  59  | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | _ Trie<br />_ [H](https://twpower.github.io/187-trie-concept-and-basic-problem) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200514_208.md) |  _   |
 
 <br>
 
