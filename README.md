@@ -79,6 +79,7 @@ Solve More than 1 algorithm problem per day with python
 |  60  | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | _ [H](https://leetcode.com/problems/longest-consecutive-sequence/discuss/631554/C%2B%2B-very-simple-solution-using-unordered-map) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200518_128.md) |  !   |
 |  61  | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200519_26.md) |  +   |
 |  62  | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200521_236.md) |  +   |
+|  63  | [38. Count and Say](https://leetcode.com/problems/count-and-say/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200522_38.md) |  +   |
 
 <br>
 
