@@ -81,6 +81,7 @@ Solve More than 1 algorithm problem per day with python
 |  62  | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200521_236.md) |  +   |
 |  63  | [38. Count and Say](https://leetcode.com/problems/count-and-say/) |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200522_38.md) |  +   |
 |  64  | [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | _ BFS                                                        | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200525_116.md) |  +   |
+|  65  | [155. Min Stack](https://leetcode.com/problems/min-stack/)   |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200526_155.md) |  +   |
 
 <br>
 
