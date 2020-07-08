@@ -83,6 +83,7 @@ Solve More than 1 algorithm problem per day with python
 |  64  | [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | \_ BFS                                                       | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200525_116.md) |  +   |
 |  65  | [155. Min Stack](https://leetcode.com/problems/min-stack/)   |                                                              | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200526_155.md) |  +   |
 |  66  | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) | \_ BS<br />_ [H](https://leetcode.com/problems/find-peak-element/solution/) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200527_162.md) |  -   |
+|  67  | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | _ multiset<br />_ [H](https://leetcode.com/problems/find-median-from-data-stream/) | [A](https://github.com/chichchic/algorithmPrac/blob/master/leetcode/200709_295.md) |  !   |
 
 <br>
 
