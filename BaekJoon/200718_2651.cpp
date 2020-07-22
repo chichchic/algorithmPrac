@@ -1,39 +1,57 @@
 #include <iostream>
 #include <vector>
-/*
-못풀었습니다.
-*/
+#include <utility>
+
 using namespace std;
-struct item
-{
-  int dis, time;
-  item() {}
-  item(int d, int t) : dis(d), time(t) {}
-};
 
 int main()
 {
-  freopen("input.txt", "r", stdin);
+  // freopen("input.txt", "r", stdin);
   int maxLen, centerNum;
-  vector<int> centerDis(centerNum), centerTime(centerNum);
   cin >> maxLen >> centerNum;
-  item dp[100][100];
-  for (int i = 0; i < centerNum; i++)
+  vector<int> centerDis(centerNum + 4, 0), centerTime(centerNum + 4, 0);
+  int dpFirst[104] = {};  //beforecenter
+  int dpSecond[104] = {}; //time
+  for (int i = 1; i <= centerNum + 1; i++)
   {
     cin >> centerDis[i];
   }
-  for (int i = 0; i < centerNum; i++)
+  for (int i = 1; i <= centerNum; i++)
   {
     cin >> centerTime[i];
   }
-  dp[0][0] = item(0, 0);
-  for (int i = 1; i < centerNum; i++)
+  for (int i = 1; i <= centerNum + 1; i++)
   {
-    for (int j = 0; j <= i; j++)
+    int runLen = centerDis[i];
+    int candiTime = 2147483647;
+    int cur;
+    for (int j = i - 1; j >= 0; j--)
     {
-      dp[i][j] = item(0, 0);
+      if (runLen > maxLen)
+        break;
+      int curCandiTime = centerTime[i] + dpSecond[j];
+      if (curCandiTime < candiTime)
+      {
+        candiTime = curCandiTime;
+        cur = j;
+      }
+      runLen += centerDis[j];
     }
+    dpFirst[i] = cur;
+    dpSecond[i] = candiTime;
   }
 
+  vector<int> ans;
+  int curpoint = dpFirst[centerNum + 1];
+  while (curpoint > 0)
+  {
+    ans.push_back(curpoint);
+    curpoint = dpFirst[curpoint];
+  }
+
+  printf("%d\n", dpSecond[centerNum + 1]);
+  printf("%lu\n", ans.size());
+  for (int i = ans.size() - 1; i >= 0; i--)
+    printf("%d ", ans[i]);
   return 0;
 }
