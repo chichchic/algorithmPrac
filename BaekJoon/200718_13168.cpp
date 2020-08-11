@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <string>
 
 using namespace std;
 //TODO:
@@ -7,6 +9,14 @@ using namespace std;
 int main()
 {
   freopen("input.txt", "r", stdin);
+  int n, ticketPrice;
+  cin >> n >> ticketPrice;
+
+  vector<string> city(n);
+  for (int i = 0; i < n; i++)
+  {
+    cin >> city[i];
+  }
 
   return 0;
 }
