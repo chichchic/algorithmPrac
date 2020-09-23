@@ -46,8 +46,6 @@ int main()
       else
         j++;
     }
-    if (ans)
-      break;
   }
   if (!ans)
     cout << 0;
