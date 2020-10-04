@@ -67,7 +67,9 @@
     "deque": "cpp",
     "map": "cpp",
     "stack": "cpp",
-    "random": "cpp"
+    "random": "cpp",
+    "*.tcc": "cpp",
+    "fstream": "cpp"
   },
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
