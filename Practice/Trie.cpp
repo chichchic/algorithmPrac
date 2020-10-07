@@ -10,6 +10,7 @@ class Tri_Node
 {
 private:
   Tri_Node *child[ALPABATS];
+  bool check;
 
 public:
   Tri_Node()
