@@ -69,7 +69,8 @@
     "stack": "cpp",
     "random": "cpp",
     "*.tcc": "cpp",
-    "fstream": "cpp"
+    "fstream": "cpp",
+    "iomanip": "cpp"
   },
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
