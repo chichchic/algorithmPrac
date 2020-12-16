@@ -72,12 +72,8 @@
     "fstream": "cpp",
     "iomanip": "cpp"
   },
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
-  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
-  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
-  "C_Cpp.vcFormat.space.betweenEmptyLambdaBrackets": true,
-  "C_Cpp.vcFormat.space.betweenEmptyBraces": true,
-  "C_Cpp.vcFormat.space.betweenEmptyParameterListParentheses": true,
-  "C_Cpp.vcFormat.space.betweenEmptySquareBrackets": true
+  //https://yoonbh2714.blogspot.com/2016/12/vscode-c-formatting_15.html 참고
+  "C_Cpp.clang_format_path": "/usr/local/bin/clang-format",
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.clang_format_fallbackStyle": "Visual Studio"
 }
