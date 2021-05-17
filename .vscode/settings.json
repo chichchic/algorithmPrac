@@ -70,7 +70,18 @@
     "random": "cpp",
     "*.tcc": "cpp",
     "fstream": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "bit": "cpp",
+    "clocale": "cpp",
+    "compare": "cpp",
+    "condition_variable": "cpp",
+    "numeric": "cpp",
+    "thread": "cpp",
+    "concepts": "cpp",
+    "memory_resource": "cpp",
+    "ranges": "cpp",
+    "stop_token": "cpp",
+    "cinttypes": "cpp"
   },
   //https://yoonbh2714.blogspot.com/2016/12/vscode-c-formatting_15.html 참고
   "C_Cpp.clang_format_path": "/usr/local/bin/clang-format",
