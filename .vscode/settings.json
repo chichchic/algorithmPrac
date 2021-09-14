@@ -81,7 +81,8 @@
     "memory_resource": "cpp",
     "ranges": "cpp",
     "stop_token": "cpp",
-    "cinttypes": "cpp"
+    "cinttypes": "cpp",
+    "__memory": "cpp"
   },
   //https://yoonbh2714.blogspot.com/2016/12/vscode-c-formatting_15.html 참고
   "C_Cpp.clang_format_path": "/usr/local/bin/clang-format",
