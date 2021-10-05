@@ -36,6 +36,18 @@ ll fibo(ll n)
   }
 }
 
+/*
+  도가뉴의 항등식: https://ko.wikipedia.org/wiki/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%EC%88%98
+  F_{m+n}=F_{m-1}F_{n}+F_{m}F_{n+1}
+  짝수일경우:
+  a{2n} = a{n-1}a{n} + a{n}a{n+1}
+        = a{n}(a{n-1} + a{n+1})
+        = a{n}(a{n-1} + a{n} + a{n-1})
+        = a{n}(a{n} + 2a{n-1})
+  홀수일 경우:
+  a{2n-1} = a{n}a{n} + a{n-1}a{n-1}
+*/
+
 int main()
 {
   // freopen("../input.txt", "r", stdin);
