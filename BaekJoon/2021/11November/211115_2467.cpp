@@ -55,13 +55,16 @@ int main()
     for (int j = i + 1; j < n; j++)
     {
       int mixed = abs(liquid[i] + liquid[j]);
-      if (mixed >= gap)
+      if (abs(liquid[j]) - abs(liquid[i]) > gap)
       {
         break;
       }
-      gap = mixed;
-      answer1 = i;
-      answer2 = j;
+      if (mixed < gap)
+      {
+        gap = mixed;
+        answer1 = i;
+        answer2 = j;
+      }
     }
   }
   if (liquid[answer1] < liquid[answer2])
