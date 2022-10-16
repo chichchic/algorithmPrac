@@ -5,24 +5,6 @@ using namespace std;
 
 const double INF = 1e6;
 
-int getMinCost(vector<int> &lentCost, int size)
-{
-  int ret = INF;
-  int sum = 0;
-  for (int i = 0; i < lentCost.size(); i++)
-  {
-    if (i < size)
-    {
-      sum += lentCost[i];
-      continue;
-    }
-    ret = min(ret, sum);
-    sum += (lentCost[i] - lentCost[i - size]);
-  }
-  ret = min(ret, sum);
-  return ret;
-}
-
 int main()
 {
   // freopen("./input.txt", "r", stdin);
@@ -39,11 +21,20 @@ int main()
     {
       cin >> lentCost[i];
     }
+
     double minTotal = INF;
-    for (int i = l; i <= n; i++)
+    for (int i = 0; i < n; i++)
     {
-      minTotal = min(minTotal, getMinCost(lentCost, i) / (double)i);
+      int sum = 0;
+      for (int j = i; j < n; j++)
+      {
+        sum += lentCost[j];
+        int len = (j - i + 1);
+        if (len >= l)
+          minTotal = min(minTotal, sum / (double)len);
+      }
     }
+
     printf("%.10lf\n", minTotal);
   }
 
