@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 #include <cstring>
 
 using namespace std;
@@ -18,63 +17,46 @@ void setBoard(char board[5][5])
   }
 }
 
-void setNextFlag(char board[5][5], int nextFlag[5][5][26][9])
+bool hasCharacter(int r, int c, int cursor, char *trg, char (*board)[5], bool (*cache)[5][10])
 {
-  for (int r = 0; r < 5; r++)
-  {
-    for (int c = 0; c < 5; c++)
-    {
-      for (int i = 0; i < 8; i++)
-      {
-        int nr = r + mr[i];
-        int nc = c + mc[i];
-        if (nr < 0 || nc < 0 || nr >= 5 || nc >= 5)
-        {
-          continue;
-        }
-        int alpha = board[nr][nc];
-        nextFlag[r][c][alpha - 'A'][nextFlag[r][c][alpha - 'A'][0] + 1] = i;
-        nextFlag[r][c][alpha - 'A'][0]++;
-      }
-    }
-  }
-}
-
-bool existNext(char *trg, int cursor, int r, int c, int nextFlag[5][5][26][9])
-{
-  if (strlen(trg) == cursor)
+  if (cursor == strlen(trg))
   {
     return true;
   }
-  if (nextFlag[r][c][trg[cursor] - 'A'][0] == 0)
+
+  if (cache[r][c][cursor])
   {
     return false;
   }
-  for (int i = 1; i <= nextFlag[r][c][trg[cursor] - 'A'][0]; i++)
+
+  for (int i = 0; i < 8; i++)
   {
-    int dir = nextFlag[r][c][trg[cursor] - 'A'][i];
-    if (existNext(trg, cursor + 1, r + mr[dir], c + mc[dir], nextFlag))
+    int nr = mr[i] + r;
+    int nc = mc[i] + c;
+    if (nr < 0 || nc < 0 || nr >= 5 || nc >= 5)
+      continue;
+    if (trg[cursor] == board[nr][nc] && hasCharacter(nr, nc, cursor + 1, trg, board, cache))
     {
       return true;
     }
   }
+  cache[r][c][cursor] = true;
   return false;
 }
 
-bool existWord(char *trg, char board[5][5], int nextFlag[5][5][26][9])
+bool hasString(char *trg, char (*board)[5])
 {
-  for (int r = 0; r < 5; r++)
+  int len = strlen(trg);
+  bool cache[5][5][10] = {};
+
+  for (int i = 0; i < 5; i++)
   {
-    for (int c = 0; c < 5; c++)
+    for (int j = 0; j < 5; j++)
     {
-      if (trg[0] != board[r][c])
-      {
+      if (board[i][j] != trg[0])
         continue;
-      }
-      if (existNext(trg, 1, r, c, nextFlag))
-      {
+      if (hasCharacter(i, j, 1, trg, board, cache))
         return true;
-      }
     }
   }
   return false;
@@ -91,8 +73,6 @@ int main()
   {
     char board[5][5];
     setBoard(board);
-    int nextFlag[5][5][26][9] = {};
-    setNextFlag(board, nextFlag);
     int n;
     cin >> n;
     for (int i = 0; i < n; i++)
@@ -100,7 +80,8 @@ int main()
       char trg[11];
       cin >> trg;
       cout << trg;
-      if (existWord(trg, board, nextFlag))
+
+      if (hasString(trg, board))
       {
         cout << " YES\n";
       }
