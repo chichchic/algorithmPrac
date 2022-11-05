@@ -1,146 +1,109 @@
 #include <iostream>
-#include <string>
 #include <vector>
+#include <string>
 #include <algorithm>
 
 using namespace std;
 
-const int ALPHA = 26 + 2;
-const int QM = 26;
-const int WILD = 27;
-
-class Trie_node
+vector<string> split(string target)
 {
-private:
-  bool endFlag;
-  bool hasWildCard;
-  Trie_node *characters[ALPHA];
-
-public:
-  Trie_node()
+  vector<string> ret;
+  int cur = 0;
+  for (int i = 0; i < target.length(); i++)
   {
-    endFlag = false;
-    hasWildCard = false;
-    for (int i = 0; i < ALPHA; i++)
+    if (target.at(i) == '*')
     {
-      characters[i] = nullptr;
+      ret.push_back(target.substr(cur, i - cur + 1));
+      cur = i + 1;
     }
   }
-
-  ~Trie_node()
+  if (cur != target.length())
   {
-    for (int i = 0; i < ALPHA; i++)
+    ret.push_back(target.substr(cur));
+  }
+  return ret;
+}
+
+bool match(const vector<string> &tokens, const string fileName, vector<vector<bool>> &checked, int tokenCur, int fileCur)
+{
+  if (fileCur == fileName.length() && tokenCur == tokens.size())
+  {
+    return true;
+  }
+  if (fileCur >= fileName.length() || tokenCur >= tokens.size())
+  {
+    return false;
+  }
+  string token = tokens[tokenCur];
+  int idx = 0;
+  while (idx < token.length())
+  {
+    if (token[idx] == '?' || token[idx] == fileName[fileCur])
     {
-      if (characters[i] != nullptr)
+      idx++;
+      fileCur++;
+    }
+    else if (token[idx] == '*')
+    {
+      while (fileCur < fileName.length())
       {
-        delete characters[i];
+        if (checked[tokenCur + 1][fileCur])
+        {
+          return false;
+        }
+        checked[tokenCur + 1][fileCur] = true;
+        if (match(tokens, fileName, checked, tokenCur + 1, fileCur))
+        {
+          return true;
+        }
+        fileCur++;
       }
-    }
-  }
-
-  void insert(const char *str)
-  {
-    if (*str == '\0')
-    {
-      endFlag = true;
-      return;
-    }
-    int cursor;
-    if (*str == '?')
-    {
-      cursor = QM;
-    }
-    else if (*str == '*')
-    {
-      cursor = WILD;
+      idx++;
     }
     else
     {
-      cursor = *str - 'a';
-    }
-
-    if (characters[cursor] == nullptr)
-    {
-      characters[cursor] = new Trie_node();
-    }
-    characters[cursor]->insert(str + 1);
-  }
-
-  bool find(const char *str)
-  {
-    if (*str == '\0')
-    {
-      if (endFlag)
-        return true;
-      if (characters[WILD] != nullptr)
-        return characters[WILD]->find(str + 1);
       return false;
     }
-    int cursor = *str - 'a';
+  }
 
-    if (hasWildCard && characters[cursor] != nullptr)
-    {
-      return find(str + 1) || characters[cursor]->find(str + 1);
-    }
-
-    if (hasWildCard)
-    {
-      return find(str + 1);
-    }
-
-    if (characters[cursor] != nullptr)
-    {
-      return characters[cursor]->find(str + 1);
-    }
-
-    if (characters[WILD] != nullptr)
-    {
-      characters[WILD]->hasWildCard = true;
-      bool ret2 = characters[WILD]->find(str + 1);
-      characters[WILD]->hasWildCard = false;
-      return ret1 || ret2;
-    }
-
-    if (characters[QM] != nullptr)
-    {
-      return characters[QM]->find(str + 1);
-    }
-
+  if (checked[tokenCur + 1][fileCur])
+  {
     return false;
   }
-};
+  checked[tokenCur + 1][fileCur] = true;
+  return match(tokens, fileName, checked, tokenCur + 1, fileCur);
+}
 
 int main()
 {
-  freopen("../input.txt", "r", stdin);
+  // freopen("../input.txt", "r", stdin);
   ios_base::sync_with_stdio(0);
   cin.tie(0);
+
   int c;
   cin >> c;
   while (c--)
   {
-    int n;
+    vector<string> answer;
     string w;
-
     cin >> w;
-    Trie_node wildStr;
-    wildStr.insert(w.c_str());
-
+    vector<string> tokens = split(w);
+    int n;
     cin >> n;
-    string fileName;
-    vector<string> res;
-    for (int i = 0; i < n; i++)
+    while (n--)
     {
+      string fileName;
       cin >> fileName;
-      if (wildStr.find(fileName.c_str()))
+      vector<vector<bool>> checked(tokens.size() + 1, vector<bool>(fileName.length() + 1, false));
+      if (match(tokens, fileName, checked, 0, 0))
       {
-        res.push_back(fileName);
+        answer.push_back(fileName);
       }
     }
-    sort(res.begin(), res.end());
-    for (string str : res)
+    sort(answer.begin(), answer.end());
+    for (auto s : answer)
     {
-      cout << str << '\n';
+      cout << s << '\n';
     }
   }
 
