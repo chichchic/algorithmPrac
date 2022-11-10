@@ -5,73 +5,43 @@
 
 using namespace std;
 
-vector<string> split(string target)
+bool match(const string &wildcard, const string &filename, vector<vector<bool>> &checked, int w_cur, int f_cur)
 {
-  vector<string> ret;
-  int cur = 0;
-  for (int i = 0; i < target.length(); i++)
-  {
-    if (target.at(i) == '*')
-    {
-      ret.push_back(target.substr(cur, i - cur + 1));
-      cur = i + 1;
-    }
-  }
-  if (cur != target.length())
-  {
-    ret.push_back(target.substr(cur));
-  }
-  return ret;
-}
-
-bool match(const vector<string> &tokens, const string fileName, vector<vector<bool>> &checked, int tokenCur, int fileCur)
-{
-  if (fileCur == fileName.length() && tokenCur == tokens.size())
+  if (wildcard.length() == w_cur && filename.length() == f_cur)
   {
     return true;
   }
-  if (fileCur >= fileName.length() || tokenCur >= tokens.size())
+  if (wildcard.length() <= w_cur)
   {
     return false;
   }
-  string token = tokens[tokenCur];
-  int idx = 0;
-  while (idx < token.length())
+  if (wildcard[w_cur] == '*')
   {
-    if (token[idx] == '?' || token[idx] == fileName[fileCur])
+    if (match(wildcard, filename, checked, w_cur + 1, f_cur))
     {
-      idx++;
-      fileCur++;
+      return true;
     }
-    else if (token[idx] == '*')
-    {
-      while (fileCur < fileName.length())
-      {
-        if (checked[tokenCur + 1][fileCur])
-        {
-          return false;
-        }
-        checked[tokenCur + 1][fileCur] = true;
-        if (match(tokens, fileName, checked, tokenCur + 1, fileCur))
-        {
-          return true;
-        }
-        fileCur++;
-      }
-      idx++;
-    }
-    else
+    if (filename.length() <= f_cur)
     {
       return false;
     }
+    checked[w_cur][f_cur] = true;
+    return match(wildcard, filename, checked, w_cur + 1, f_cur + 1) || match(wildcard, filename, checked, w_cur, f_cur + 1);
   }
-
-  if (checked[tokenCur + 1][fileCur])
+  if (filename.length() <= f_cur)
   {
     return false;
   }
-  checked[tokenCur + 1][fileCur] = true;
-  return match(tokens, fileName, checked, tokenCur + 1, fileCur);
+  if (checked[w_cur][f_cur])
+  {
+    return false;
+  }
+  checked[w_cur][f_cur] = true;
+  if (wildcard[w_cur] == '?' || wildcard[w_cur] == filename[f_cur])
+  {
+    return match(wildcard, filename, checked, w_cur + 1, f_cur + 1);
+  }
+  return false;
 }
 
 int main()
@@ -85,19 +55,18 @@ int main()
   while (c--)
   {
     vector<string> answer;
-    string w;
-    cin >> w;
-    vector<string> tokens = split(w);
+    string wildcard;
+    cin >> wildcard;
     int n;
     cin >> n;
     while (n--)
     {
-      string fileName;
-      cin >> fileName;
-      vector<vector<bool>> checked(tokens.size() + 1, vector<bool>(fileName.length() + 1, false));
-      if (match(tokens, fileName, checked, 0, 0))
+      string filename;
+      cin >> filename;
+      vector<vector<bool>> checked(wildcard.length() + 1, vector<bool>(filename.length() + 1, false));
+      if (match(wildcard, filename, checked, 0, 0))
       {
-        answer.push_back(fileName);
+        answer.push_back(filename);
       }
     }
     sort(answer.begin(), answer.end());
